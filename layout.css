@@ -1,0 +1,378 @@
+body{
+  font-size: 13px;
+}
+a{
+	color: #333;
+}
+p{
+	margin-bottom: 5px;
+}
+ol li{
+	padding: 5px;
+}
+ol,ul{
+	list-style: none;
+	margin: 0;
+}
+.badge{
+	padding: 2px 3px;
+	line-height: 13px;
+	margin-right: 3px;
+}
+.pr2{
+	padding-right: 2px;
+}
+.recommend,.tss-category{
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+/*nav style*/
+.nav{
+	margin-bottom: 0;
+}
+.navbar{
+	margin-bottom: 10px;
+}
+.navbar-inner{
+	padding-right: 10px;
+}
+.header h2{
+	font-size: 14px;
+	color: #999;
+	padding-left: 10px;
+	height: 38px;
+	border-bottom:1px solid #eee;
+	margin: 0;
+}
+.shop_count{
+	color: orange;
+}
+
+/*search style*/
+.search{
+	position: relative;
+	top: 5px;
+	margin-bottom: 7px;
+}
+.search form{
+	margin-bottom: 0;
+}
+.search span{
+	font-size: 15px;
+	float: left;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.search_label{
+	padding: 2px 10px;
+	line-height: 26px;
+	float: left;
+	margin-right: 10px;
+}
+.submit{
+	background-color: white;
+	border: none;
+	position: absolute;
+	left: 510px;
+	top:4px;
+}
+.hot{
+	position: absolute;
+	line-height: 30px;
+	color: #888;
+	top:0;
+	right: 130px;
+}
+.hot a{
+	color: inherit;
+}
+.hot span{
+	font-size: 13px;
+}
+/*recoment style*/
+.recommend ol li{
+	padding-left: 10px;
+}
+.recommend ol li:nth-child(-n+3) span{
+	background-color:#333333;
+}
+/*travel-ul style*/
+.travel-ul{
+	border: 1px solid #eee;
+	border-top: 0;
+	padding: 10px 0;
+}
+	ul.travel-ul li {
+	float: left;
+	height: 197px;
+	overflow: hidden;
+	padding-left: 9px;
+	width: 130px;
+	}
+	.img130 {
+	display: block;
+	height: 130px;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 130px;
+	position: relative;
+	}
+		.img130 img {
+		display: block;
+		margin: 0 auto;
+		max-height: 130px;
+		max-width: 130px;
+		vertical-align: middle;
+		}
+		.label_tj span {
+		color: #fff;
+		font: bold 18px/28px Arial;
+		left: 5px;
+		position: absolute;
+		top: 10px;
+		}
+		.price span {
+		line-height: 25px;
+		padding-left: 8px;
+		}
+			span.new-price {
+			background: url("../img/bg.png") no-repeat scroll 0 -420px transparent;
+			color: #ff4a00;
+			font-size: 14px;
+			font-weight: bold;
+			}
+			span.old-price {
+			background: url("../img/bg.png") no-repeat scroll 0 -422px transparent;
+			color: #757575;
+			font-weight: normal;
+			padding-right: 5px;
+			text-decoration: line-through;
+			}
+	.label_tj {
+	background: url(../img/discount.png) no-repeat 0 0;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	right: 6px;
+	top: 0;
+	width: 50px;
+	}
+	.book-name {
+	height: 37px;
+	overflow: hidden;
+	text-align: center;
+	}
+	.price {
+		text-align: center;
+	color: #555;
+	font-family: Tahoma,Geneva,sans-serif;
+	height: 20px;
+	white-space: nowrap;
+	}
+	.ad{
+	margin: 10px 0;
+}
+/*tss-category style*/
+.tss-category dl{
+	margin: 0;
+}
+.tss-category dl dt {
+background: none repeat scroll 0 0 #f8f8f8;
+border-bottom: 1px solid #e5e5e5;
+font-weight: bold;
+height: 24px;
+padding-left: 12px;
+padding-top: 9px;
+}
+.tss-category dl dt a {
+color: #546f60;
+}
+.tss-category dl dd {
+border-bottom: 1px solid #e5e5e5;
+color: #808080;
+line-height: 29px;
+padding-left: 5px;
+margin-left: 0;
+}
+.tss-category dl dd a {
+color: #808080;
+margin: 0 7px;
+display: inline-block;
+}
+.tss-category dl dt.all {
+padding-left: 115px;
+padding-top: 9px;
+}
+
+
+/*paihang style*/
+.tab-pane ul{
+	font-size: 12px;
+	border: 1px solid #eee;
+	border-top: 0;
+}
+.paihang_content {
+border-right: 1px solid #e2e2e2;
+float: left;
+padding: 10px;
+width: 480px;
+}
+.paihang_content .detail {
+height: 122px;
+overflow: hidden;
+width: 456px;
+}
+.paihang_content .detail .num {
+height: 29px;
+margin-right: 5px;
+width: 26px;
+}
+.paihang_content .detail .description_wrapper {
+display: table;
+float: left;
+height: 122px;
+padding-left: 7px;
+width: 296px;
+}
+.paihang .list_h .listitem .description_content {
+display: table-cell;
+vertical-align: middle;
+}
+.num {
+background: url(../img/bg.png) no-repeat -74px -202px;
+float: left;
+height: 20px;
+overflow: hidden;
+width: 22px;
+}
+.paihang_content .detail .pic {
+float: left;
+border: 1px solid #fff;
+height: 120px;
+position: relative;
+width: 120px;
+}
+.paihang_content .detail .pic a {
+display: block;
+height: 120px;
+overflow: hidden;
+text-align: center;
+width: 120px;
+}
+
+.paihang .list_v {
+max-height: 372px;
+overflow: hidden;
+width: 487px;
+}
+.paihang_content .list_v li {
+float: left;
+height: 170px;
+overflow: hidden;
+padding: 20px 5px 0 0;
+width: 114px;
+}
+.paihang_content .list_v .num {
+width: 22px;
+}
+.paihang_content .detail .description p {
+cursor: default;
+height: 19px;
+overflow: hidden;
+margin-top: 5px;
+}
+.paihang_content .detail .description .tip {
+cursor: default;
+height: auto;
+overflow: hidden;
+}
+.paihang_content .detail .description .bookname {
+height: 19px;
+overflow: hidden;
+width: 296px;
+}
+.paihang_content .detail .description .bookname a {
+color: #546f60;
+display: block;
+height: 19px;
+font-size: 14px;
+overflow: hidden;
+line-height: 19px;
+font-weight: bolder;
+}
+.num2 {
+background-position: -74px -232px;
+}
+.paihang_content .list_v .listitem {
+float: left;
+width: 92px;
+}
+.num3 {
+background-position: -74px -252px;
+}
+.num4 {
+background-position: -74px -272px;
+}
+.num5{background-position:-74px -292px}
+.num6{background-position:-74px -312px}
+.num7{background-position:-74px -332px}
+.num8{background-position:-74px -352px}
+.num9{background-position:-74px -372px}
+.num10{background-position:-79px -392px}
+.num11{background-position:-79px -412px}
+.num12{background-position:-79px -432px}
+.num13{background-position:-79px -452px}
+.num14{background-position:-79px -472px}
+.num15{background-position:-79px -492px}
+.listitem{
+	text-align: center;
+}
+.paihang .list_h {
+float: right;
+overflow: hidden;
+width: 190px;
+padding: 10px 0 0 0;
+}
+.paihang .list_h .listitem {
+float: left;
+height: 69px;
+width: 150px;
+}
+.paihang .list_h .listitem .pic {
+float: left;
+height: 60px;
+position: relative;
+width: 60px;
+text-align: center;
+}
+.paihang .list_h .listitem .description p {
+cursor: default;
+height: 18px;
+width: 82px;
+}
+.paihang .list_h .listitem .description .price_d {
+color: #ff4a00;
+font-family: Arial;
+font-weight: bold;
+}
+.price span {
+line-height: 25px;
+}
+.paihang .list_h .listitem .description .price {
+margin-top: 20px;
+}
+
+/*footer style*/
+#footer {
+margin-top: 10px;
+clear: both;
+padding-top: 10px;
+border-top: 1px solid #ccc;
+text-align: center;
+line-height: 1.7;
+}
+#footer span {
+color: #999;
+margin-right: 10px;
+}
